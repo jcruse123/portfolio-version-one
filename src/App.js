@@ -8,6 +8,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import aperture from './img/aperture-2.jpg'
 import openTicket from './img/open-ticket.jpg'
+import portfolio from './img/portfolio-bg.jpg'
 import home from './ico/home.svg'
 import person from './ico/person.svg'
 import list from './ico/list.svg'
@@ -91,8 +92,8 @@ class App extends React.Component {
             <h1 className="display-4" id="project-headline">Projects</h1>
             <hr className="pb-3" id="project-hr" />
             <Row>
-              <Col xs={12} sm={6} lg={6} className="mb-3">
-                <Card className="mb-3 h-100">
+              <Col xs={12} sm={6} lg={4} className="mb-4">
+                <Card className="h-100">
                   <Card.Img variant="top" src={aperture} />
                   <hr className="mt-0 pt-0 mb-0 pb-0 card-hr" />
                   <Card.Body className="d-flex flex-column">
@@ -106,8 +107,8 @@ class App extends React.Component {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col xs={12} sm={6} lg={6} className="mb-3">
-                <Card className="mb-3 h-100">
+              <Col xs={12} sm={6} lg={4} className="mb-4">
+                <Card className=" h-100">
                   <Card.Img variant="top" src={openTicket} />
                   <hr className="mt-0 pt-0 mb-0 pb-0 card-hr" />
                   <Card.Body className="d-flex flex-column">
@@ -118,6 +119,20 @@ class App extends React.Component {
                     </Card.Text>
                     <Button className="mt-auto" href="https://github.com/jcruse123/open-ticket" block size="sm" variant="primary">GitHub</Button>
                     <Button href="https://open-ticket.herokuapp.com" block size="sm" variant="success">Live Version</Button>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col xs={12} sm={6} lg={4} className="mb-4">
+                <Card className="h-100">
+                  <Card.Img variant="top" src={portfolio} />
+                  <hr className="mt-0 pt-0 mb-0 pb-0 card-hr" />
+                  <Card.Body className="d-flex flex-column">
+                    <h3>Developer Portfolio</h3>
+                    <Card.Text>
+                      Custom built website to display my projects and allow anyone to easily send me a message.
+                      No link provided - you're already here!
+                    </Card.Text>
+                    <Button className="mt-auto" href="https://github.com/jcruse123/portfolio-version-one" block size="sm" variant="primary">GitHub</Button>
                   </Card.Body>
                 </Card>
               </Col>

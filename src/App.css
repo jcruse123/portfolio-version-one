@@ -1,6 +1,23 @@
+#dark-navbar {
+  background-color: black !important;
+  fill: white;
+  height: 40px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  filter: invert(100);
+}
+
+.btn {
+  border-radius: 0;
+}
+
 /* title section */
 #title-section {
   height: 100vh;
+  min-height: 600px;
   margin: auto;
   background-image: url("./img/bg.jpg");
   background-size: 1280px auto;
@@ -55,6 +72,11 @@
 #project-section {
   background-color: black;
   width: 100%;
+  margin: auto;
+  background-image: url("./img/projects-bg.jpg");
+  background-size: 1200px auto;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 #project-headline {
@@ -74,8 +96,9 @@
 }
 
 .card {
-  border-style: none;
+  /* border-style: none; */
   border-radius: 0;
+  border-color: white;
 }
 
 .card-hr {
@@ -103,6 +126,19 @@
 
 #contact-content {
   padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 1rem;
   color: black;
+}
+
+#contact-form {
+  text-align: center;
+}
+
+#contact-card {
+  border-color: black;
+  max-width: 500px;
+}
+
+input, textarea {
+  border-radius: 0 !important;
 }

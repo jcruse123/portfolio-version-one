@@ -4,20 +4,73 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
 import aperture from './img/aperture-2.jpg'
 import openTicket from './img/open-ticket.jpg'
+import home from './ico/home.svg'
+import person from './ico/person.svg'
+import list from './ico/list.svg'
+import email from './ico/email.svg'
+import axios from 'axios';
 
 
 class App extends React.Component {
+
+  state = {
+    name: '',
+    email: '',
+    message: ''
+  }
+
+  onNameChange(event) {
+	   this.setState({name: event.target.value})
+  }
+
+  onEmailChange(event) {
+	   this.setState({email: event.target.value})
+  }
+
+  onMessageChange(event) {
+	   this.setState({message: event.target.value})
+  }
+
+  handleSubmit(e){
+    e.preventDefault();
+    axios({
+      method: "POST",
+      url:"http://localhost:3002/send",
+      data:  this.state
+    }).then((response)=>{
+      if (response.data.status === 'success'){
+        alert("Message Sent.");
+        this.resetForm()
+      }else if(response.data.status === 'fail'){
+        alert("Message failed to send.")
+      }
+    })
+  }
+
   render() {
     return (
       <div>
+
+        <div>
+        <Navbar id="dark-navbar" fixed="top" bg="dark" variant="dark">
+          <Nav className="ml-auto mr-auto">
+            <Nav.Link className="text-white" href="#title-section"><img className="icon" src={home} alt="home" /></Nav.Link>
+            <Nav.Link className="text-white" href="#about-section"><img className="icon" src={person} alt="person" /></Nav.Link>
+            <Nav.Link className="text-white" href="#project-section"><img className="icon" src={list} alt="list" /></Nav.Link>
+            <Nav.Link className="text-white" href="#contact-section"><img className="icon" src={email} alt="email" /></Nav.Link>
+          </Nav>
+        </Navbar>
+        </div>
 
         <div id="title-section">
           <Container className="text-center" id="title-content">
             <h1 className="display-4">Joshua Cruse</h1>
             <hr id="title-hr" />
-            <h1 className="display-4" id="tagline-text">Fullstack Developer</h1>
+            <h1 className="display-4" id="tagline-text">Full Stack Developer</h1>
           </Container>
         </div>
 
@@ -25,7 +78,11 @@ class App extends React.Component {
           <Container className="text-center" id="about-content">
             <h1 className="display-4" id="about-headline">About Me</h1>
             <hr id="about-hr"/>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+            <p>
+              I build full stack web applications using effective, minimalist designs.
+              Take a look at my <a href="#project-section">projects</a> to learn more.
+              Feel free to <a href="#contact-section">contact</a> me at any time.
+            </p>
           </Container>
         </div>
 
@@ -34,30 +91,32 @@ class App extends React.Component {
             <h1 className="display-4" id="project-headline">Projects</h1>
             <hr className="pb-3" id="project-hr" />
             <Row>
-              <Col xs={12} sm={6} lg={6}>
-                <Card className="mb-3">
+              <Col xs={12} sm={6} lg={6} className="mb-3">
+                <Card className="mb-3 h-100">
                   <Card.Img variant="top" src={aperture} />
                   <hr className="mt-0 pt-0 mb-0 pb-0 card-hr" />
-                  <Card.Body>
+                  <Card.Body className="d-flex flex-column">
                     <h3>Aperture</h3>
                     <Card.Text>
-                      Aperture is a place for photography enthusiasts to post their photos. Sign up to post your own photo and leave a five star rating on your favorite picture.
+                      Aperture is a place for photography enthusiasts to post their best photos.
+                      Sign up to post your own photo and leave a five star rating on your favorite picture.
                     </Card.Text>
-                    <Button href="https://github.com/jcruse123/aperture-photo" block size="sm" variant="primary">GitHub</Button>
+                    <Button className="mt-auto" href="https://github.com/jcruse123/aperture-photo" block size="sm" variant="primary">GitHub</Button>
                     <Button href="https://aperture-photo.herokuapp.com/photos" block size="sm" variant="success">Live Version</Button>
                   </Card.Body>
                 </Card>
               </Col>
-              <Col xs={12} sm={6} lg={6}>
-                <Card className="mb-3">
+              <Col xs={12} sm={6} lg={6} className="mb-3">
+                <Card className="mb-3 h-100">
                   <Card.Img variant="top" src={openTicket} />
                   <hr className="mt-0 pt-0 mb-0 pb-0 card-hr" />
-                  <Card.Body>
+                  <Card.Body className="d-flex flex-column">
                     <h3>Open Ticket</h3>
                     <Card.Text>
-                      Open Ticket is an easy to use issue tracker powered by React. Create a new ticket or track your progress on an existing ticket with journal entries.
+                      Open Ticket is an easy to use issue tracker powered by React.
+                      Create a new ticket or track your progress on an existing ticket using journal entries.
                     </Card.Text>
-                    <Button href="https://github.com/jcruse123/open-ticket" block size="sm" variant="primary">GitHub</Button>
+                    <Button className="mt-auto" href="https://github.com/jcruse123/open-ticket" block size="sm" variant="primary">GitHub</Button>
                     <Button href="https://open-ticket.herokuapp.com" block size="sm" variant="success">Live Version</Button>
                   </Card.Body>
                 </Card>
@@ -69,10 +128,33 @@ class App extends React.Component {
         <div id="contact-section">
           <Container className="text-center" id="contact-content">
             <h1 className="display-4" id="contact-headline">Contact Me</h1>
-            <hr id="about-hr"/>
-            <p>Contact Form goes here.</p>
-            <p>jcruse123@gmail.com</p>
-            <p>Denver, CO</p>
+            <hr className="mb-5" id="about-hr"/>
+
+            <Card className="pb-3 pt-3 mr-auto ml-auto" id="contact-card">
+              <Container>
+                <form className="" id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
+              	<div className="form-group">
+                  	<label htmlFor="name">Your Name</label>
+                  	<input type="text" className="form-control text-center" id="name" value={this.state.name} onChange={this.onNameChange.bind(this)} />
+              	</div>
+              	<div className="form-group">
+                  	<label htmlFor="exampleInputEmail1">Your E-mail Address</label>
+                  	<input type="email" className="form-control text-center" id="email" aria-describedby="emailHelp" value={this.state.email} onChange={this.onEmailChange.bind(this)} />
+              	</div>
+              	<div className="form-group">
+                  	<label htmlFor="message">Message</label>
+                  	<textarea className="form-control" rows="5" id="message" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
+              	</div>
+              	<button type="submit" className="btn btn-block btn-primary">Submit</button>
+              	</form>
+              </Container>
+            </Card>
+
+            <div className="mt-5">
+              <p>jcruse123@gmail.com</p>
+              <p>Denver, CO</p>
+            </div>
+
           </Container>
         </div>
 

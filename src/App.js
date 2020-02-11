@@ -135,15 +135,15 @@ class App extends React.Component {
                 <form className="" id="contact-form" action="http://formspree.io/jcruse123@gmail.com" method="POST">
               	<div className="form-group">
                   	<label htmlFor="name">Your Name</label>
-                  	<input type="text" className="form-control text-center" id="name" value={this.state.name} onChange={this.onNameChange.bind(this)} />
+                  	<input type="text" className="form-control text-center" name="name" id="name" value={this.state.name} onChange={this.onNameChange.bind(this)} />
               	</div>
               	<div className="form-group">
                   	<label htmlFor="exampleInputEmail1">Your E-mail Address</label>
-                  	<input type="email" className="form-control text-center" id="email" aria-describedby="emailHelp" value={this.state.email} onChange={this.onEmailChange.bind(this)} />
+                  	<input type="email" className="form-control text-center" name="email" id="email" aria-describedby="emailHelp" value={this.state.email} onChange={this.onEmailChange.bind(this)} />
               	</div>
               	<div className="form-group">
                   	<label htmlFor="message">Message</label>
-                  	<textarea className="form-control" rows="5" id="message" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
+                  	<textarea className="form-control" rows="5" name="message" id="message" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
               	</div>
               	<button type="submit" className="btn btn-block btn-primary">Submit</button>
               	</form>

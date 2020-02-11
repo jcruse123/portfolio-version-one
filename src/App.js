@@ -9,11 +9,11 @@ import Nav from 'react-bootstrap/Nav'
 import aperture from './img/aperture-2.jpg'
 import openTicket from './img/open-ticket.jpg'
 import portfolio from './img/portfolio-bg.jpg'
+import headshot from './img/headshot.jpg'
 import home from './ico/home.svg'
 import person from './ico/person.svg'
 import list from './ico/list.svg'
 import email from './ico/email.svg'
-import axios from 'axios';
 
 
 class App extends React.Component {
@@ -34,22 +34,6 @@ class App extends React.Component {
 
   onMessageChange(event) {
 	   this.setState({message: event.target.value})
-  }
-
-  handleSubmit(e){
-    e.preventDefault();
-    axios({
-      method: "POST",
-      url:"http://localhost:3002/send",
-      data:  this.state
-    }).then((response)=>{
-      if (response.data.status === 'success'){
-        alert("Message Sent.");
-        this.resetForm()
-      }else if(response.data.status === 'fail'){
-        alert("Message failed to send.")
-      }
-    })
   }
 
   render() {
@@ -77,6 +61,9 @@ class App extends React.Component {
 
         <div id="about-section">
           <Container className="text-center" id="about-content">
+            <div>
+              <img id="headshot" src={headshot} alt="headshot" />
+            </div>
             <h1 className="display-4" id="about-headline">About Me</h1>
             <hr id="about-hr"/>
             <p>

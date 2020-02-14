@@ -26,13 +26,6 @@
   background-color: black;
 }
 
-@media only screen and (max-width: 767px) {
-  #title-section {
-    background-size: 550px auto;
-    background-image: url("./img/mobile-bg.jpg");
-  }
-}
-
 #title-content {
   padding-top: 15vh;
   color: white;
@@ -45,6 +38,21 @@
 
 #tagline-text {
   font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 767px) {
+  #title-section {
+    background-size: 550px auto;
+    background-image: url("./img/mobile-bg.jpg");
+  }
+
+  #title-content h1:nth-of-type(1) {
+    font-size: 2.5rem;
+  }
+
+  #title-content h1:nth-of-type(2) {
+    font-size: 1.2rem;
+  }
 }
 
 /* about section */
@@ -68,6 +76,16 @@
   font-size: 1.2rem;
   color: black;
   max-width: 500px;
+}
+
+@media only screen and (max-width: 767px) {
+  #about-content h1:nth-of-type(1) {
+    font-size: 2.5rem;
+  }
+
+  #about-content p {
+    font-size: 1rem;
+  }
 }
 
 #headshot {
@@ -102,6 +120,12 @@
   padding-top: 5rem;
   padding-bottom: 5rem;
   color: black;
+}
+
+@media only screen and (max-width: 767px) {
+  #project-content h1 {
+    font-size: 2.5rem;
+  }
 }
 
 .card {
@@ -146,6 +170,12 @@
 #contact-card {
   border-color: black;
   max-width: 500px;
+}
+
+@media only screen and (max-width: 767px) {
+  #contact-content h1 {
+    font-size: 2.5rem;
+  }
 }
 
 input, textarea {

@@ -134,7 +134,7 @@ class App extends React.Component {
 
             <Card className="pb-3 pt-3 mr-auto ml-auto" id="contact-card">
               <Container>
-                <form className="" id="contact-form" action="http://formspree.io/jcruse123@gmail.com" method="POST">
+                <form className="" id="contact-form" action="https://formspree.io/jcruse123@gmail.com" method="POST">
               	<div className="form-group">
                   	<label htmlFor="name">Your Name</label>
                   	<input type="text" className="form-control text-center" name="name" id="name" value={this.state.name} onChange={this.onNameChange.bind(this)} />

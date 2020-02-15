@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3b89ffdee05d8d19334bf1cd79dd3be2",
+    "revision": "1779dd7fb4eed0ad5f3185e169f377cf",
     "url": "/portfolio-version-one/index.html"
   },
   {
-    "revision": "296ab4bcacbd7d6ce91e",
-    "url": "/portfolio-version-one/static/css/2.47e06e2e.chunk.css"
+    "revision": "9f5ee9c9b779dbf82582",
+    "url": "/portfolio-version-one/static/css/2.cbf16948.chunk.css"
   },
   {
-    "revision": "defb353f278ed4fd4c2f",
-    "url": "/portfolio-version-one/static/css/main.3f1517d0.chunk.css"
+    "revision": "7c504eeada9b57af8d0f",
+    "url": "/portfolio-version-one/static/css/main.f85809b0.chunk.css"
   },
   {
-    "revision": "296ab4bcacbd7d6ce91e",
-    "url": "/portfolio-version-one/static/js/2.6d130007.chunk.js"
+    "revision": "9f5ee9c9b779dbf82582",
+    "url": "/portfolio-version-one/static/js/2.96047f11.chunk.js"
   },
   {
     "revision": "bfc08a62983de46a4daec9f8c3c657d8",
-    "url": "/portfolio-version-one/static/js/2.6d130007.chunk.js.LICENSE.txt"
+    "url": "/portfolio-version-one/static/js/2.96047f11.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "defb353f278ed4fd4c2f",
-    "url": "/portfolio-version-one/static/js/main.fd52cba5.chunk.js"
+    "revision": "7c504eeada9b57af8d0f",
+    "url": "/portfolio-version-one/static/js/main.fa8e8438.chunk.js"
   },
   {
     "revision": "63bcd2aabceff85898d6",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-version-one/static/media/aperture-2.a1575700.jpg"
   },
   {
-    "revision": "99250f6ad6f659e9f04f1218dad3ce59",
-    "url": "/portfolio-version-one/static/media/bg.99250f6a.jpg"
+    "revision": "c315b6194bcf6a8a7f679b6910dc1694",
+    "url": "/portfolio-version-one/static/media/bg.c315b619.jpg"
   },
   {
     "revision": "694954db2ecd5e7d3412ba95ed4d833b",
@@ -50,10 +50,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e8b695a1efec48d67e0b65fac2009c14",
     "url": "/portfolio-version-one/static/media/list.e8b695a1.svg"
-  },
-  {
-    "revision": "281e15180e438daf7d3a672f3dec44e8",
-    "url": "/portfolio-version-one/static/media/mobile-bg.281e1518.jpg"
   },
   {
     "revision": "700695836830a01fe2c544ed4f8e8764",

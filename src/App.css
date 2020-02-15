@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 #dark-navbar {
   background-color: black !important;
   fill: white;
@@ -14,16 +18,15 @@
   border-radius: 0;
 }
 
+#parallax-bg {
+  background-color: black;
+}
+
 /* title section */
 #title-section {
   height: 100vh;
   min-height: 600px;
   margin: auto;
-  background-image: url("./img/bg.jpg");
-  background-size: 1280px auto;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-color: black;
 }
 
 #title-content {
@@ -40,10 +43,15 @@
   font-size: 1.5rem;
 }
 
+.title-bg .react-parallax-bgimage {
+  top: 50%;
+}
+
 @media only screen and (max-width: 767px) {
-  #title-section {
-    background-size: 550px auto;
-    background-image: url("./img/mobile-bg.jpg");
+  .title-bg .react-parallax-bgimage {
+    width: 550px !important;
+    height: auto !important;
+    top: 70%;
   }
 
   #title-content h1:nth-of-type(1) {
@@ -97,13 +105,8 @@
 
 /* project section */
 #project-section {
-  background-color: black;
   width: 100%;
   margin: auto;
-  background-image: url("./img/projects-bg.jpg");
-  background-size: 1200px auto;
-  background-position: center center;
-  background-repeat: no-repeat;
 }
 
 #project-headline {
@@ -122,9 +125,19 @@
   color: black;
 }
 
+.project-bg .react-parallax-bgimage {
+  top: 20%;
+}
+
 @media only screen and (max-width: 767px) {
   #project-content h1 {
     font-size: 2.5rem;
+  }
+
+  .project-bg .react-parallax-bgimage {
+    width: 850px !important;
+    height: auto !important;
+    top: 20%;
   }
 }
 

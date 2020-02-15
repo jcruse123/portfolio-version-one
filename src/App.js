@@ -100,7 +100,7 @@ class App extends React.Component {
                 <hr className="pb-3" id="project-hr" />
                 <Row>
                   <Col xs={12} sm={6} lg={4} className="mb-4">
-                    <Card className="h-100">
+                    <Card className="h-100" data-aos="fade-in">
                       <Card.Img variant="top" src={aperture} />
                       <hr className="mt-0 pt-0 mb-0 pb-0 card-hr" />
                       <Card.Body className="d-flex flex-column">
@@ -115,7 +115,7 @@ class App extends React.Component {
                     </Card>
                   </Col>
                   <Col xs={12} sm={6} lg={4} className="mb-4">
-                    <Card className=" h-100">
+                    <Card className=" h-100" data-aos="fade-in">
                       <Card.Img variant="top" src={openTicket} />
                       <hr className="mt-0 pt-0 mb-0 pb-0 card-hr" />
                       <Card.Body className="d-flex flex-column">
@@ -130,7 +130,7 @@ class App extends React.Component {
                     </Card>
                   </Col>
                   <Col xs={12} sm={6} lg={4} className="mb-4">
-                    <Card className="h-100">
+                    <Card className="h-100" data-aos="fade-in">
                       <Card.Img variant="top" src={portfolio} />
                       <hr className="mt-0 pt-0 mb-0 pb-0 card-hr" />
                       <Card.Body className="d-flex flex-column">

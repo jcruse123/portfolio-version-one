@@ -7,9 +7,9 @@ import App from './App';
 import './App.css';
 
 AOS.init({
-  disable: false,
-  duration: 600,
-  offset: 0
+  duration: 1000,
+  offset: 0,
+  mirror: true,
 });
 
 ReactDOM.render(

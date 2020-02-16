@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/portfolio-version-one/static/css/main.e29bbc01.chunk.css",
-    "main.js": "/portfolio-version-one/static/js/main.c730354a.chunk.js",
-    "main.js.map": "/portfolio-version-one/static/js/main.c730354a.chunk.js.map",
+    "main.js": "/portfolio-version-one/static/js/main.3a5ff804.chunk.js",
+    "main.js.map": "/portfolio-version-one/static/js/main.3a5ff804.chunk.js.map",
     "runtime-main.js": "/portfolio-version-one/static/js/runtime-main.c65856e0.js",
     "runtime-main.js.map": "/portfolio-version-one/static/js/runtime-main.c65856e0.js.map",
     "static/css/2.cbf16948.chunk.css": "/portfolio-version-one/static/css/2.cbf16948.chunk.css",
     "static/js/2.55afe4ba.chunk.js": "/portfolio-version-one/static/js/2.55afe4ba.chunk.js",
     "static/js/2.55afe4ba.chunk.js.map": "/portfolio-version-one/static/js/2.55afe4ba.chunk.js.map",
     "index.html": "/portfolio-version-one/index.html",
-    "precache-manifest.da737a389789ec3972acee673c75fa08.js": "/portfolio-version-one/precache-manifest.da737a389789ec3972acee673c75fa08.js",
+    "precache-manifest.dd66e23b5fb0f8fb882411360ef8f696.js": "/portfolio-version-one/precache-manifest.dd66e23b5fb0f8fb882411360ef8f696.js",
     "service-worker.js": "/portfolio-version-one/service-worker.js",
     "static/css/2.cbf16948.chunk.css.map": "/portfolio-version-one/static/css/2.cbf16948.chunk.css.map",
     "static/css/main.e29bbc01.chunk.css.map": "/portfolio-version-one/static/css/main.e29bbc01.chunk.css.map",
     "static/js/2.55afe4ba.chunk.js.LICENSE.txt": "/portfolio-version-one/static/js/2.55afe4ba.chunk.js.LICENSE.txt",
-    "static/media/aperture-2.jpg": "/portfolio-version-one/static/media/aperture-2.a1575700.jpg",
+    "static/media/aperture.jpg": "/portfolio-version-one/static/media/aperture.28bc4465.jpg",
     "static/media/bg.jpg": "/portfolio-version-one/static/media/bg.c315b619.jpg",
     "static/media/email.svg": "/portfolio-version-one/static/media/email.694954db.svg",
     "static/media/headshot.jpg": "/portfolio-version-one/static/media/headshot.0c007278.jpg",
@@ -30,6 +30,6 @@
     "static/css/2.cbf16948.chunk.css",
     "static/js/2.55afe4ba.chunk.js",
     "static/css/main.e29bbc01.chunk.css",
-    "static/js/main.c730354a.chunk.js"
+    "static/js/main.3a5ff804.chunk.js"
   ]
 }

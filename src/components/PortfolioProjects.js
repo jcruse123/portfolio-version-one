@@ -37,8 +37,8 @@ const PortfolioProjects = () => {
                       Aperture is a place for photography enthusiasts to post their best photos.
                       Sign up to post your own photo and leave a five star rating on your favorite picture.
                     </Card.Text>
-                    <Button className="mt-auto" href="https://github.com/jcruse123/aperture-photo" block size="sm" variant="primary">GitHub</Button>
-                    <Button href="https://aperture-photo.herokuapp.com/photos" block size="sm" variant="success">Live Version</Button>
+                    <Button className="mt-auto" href="https://aperture-photo.herokuapp.com/photos" block size="sm" variant="success">Live Version</Button>
+                    <Button href="https://github.com/jcruse123/aperture-photo" block size="sm" variant="primary">GitHub</Button>
                   </Card.Body>
                 </Card>
               </Col>
@@ -53,8 +53,8 @@ const PortfolioProjects = () => {
                       Open Ticket is an easy to use issue tracker powered by React.
                       Create a new ticket or track your progress on an existing ticket using journal entries.
                     </Card.Text>
-                    <Button className="mt-auto" href="https://github.com/jcruse123/open-ticket-complete" block size="sm" variant="primary">GitHub</Button>
-                    <Button href="https://open-ticket-complete.herokuapp.com/" block size="sm" variant="success">Live Version</Button>
+                    <Button className="mt-auto" href="https://open-ticket-complete.herokuapp.com/" block size="sm" variant="success">Live Version</Button>
+                    <Button href="https://github.com/jcruse123/open-ticket-complete" block size="sm" variant="primary">GitHub</Button>
                   </Card.Body>
                 </Card>
               </Col>

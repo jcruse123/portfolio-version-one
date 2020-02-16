@@ -53,8 +53,8 @@ const PortfolioProjects = () => {
                       Open Ticket is an easy to use issue tracker powered by React.
                       Create a new ticket or track your progress on an existing ticket using journal entries.
                     </Card.Text>
-                    <Button className="mt-auto" href="https://github.com/jcruse123/open-ticket" block size="sm" variant="primary">GitHub</Button>
-                    <Button href="https://open-ticket.herokuapp.com" block size="sm" variant="success">Live Version</Button>
+                    <Button className="mt-auto" href="https://github.com/jcruse123/open-ticket-complete" block size="sm" variant="primary">GitHub</Button>
+                    <Button href="https://open-ticket-complete.herokuapp.com/" block size="sm" variant="success">Live Version</Button>
                   </Card.Body>
                 </Card>
               </Col>

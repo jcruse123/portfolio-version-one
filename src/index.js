@@ -6,10 +6,11 @@ import 'aos/dist/aos.css';
 import App from './App';
 import './App.css';
 
+
+// AOS produces fade in effect on elements
 AOS.init({
   duration: 1000,
   offset: 0,
-  mirror: true,
 });
 
 ReactDOM.render(

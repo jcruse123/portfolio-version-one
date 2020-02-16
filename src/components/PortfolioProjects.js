@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
-import aperture from '../img/aperture-2.jpg'
+import aperture from '../img/aperture.jpg'
 import openTicket from '../img/open-ticket.jpg'
 import portfolio from '../img/portfolio-bg.jpg'
 

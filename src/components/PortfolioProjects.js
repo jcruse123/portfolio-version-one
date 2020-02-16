@@ -69,7 +69,7 @@ const PortfolioProjects = () => {
                       Custom built website to display my projects and allow anyone to easily send me a message.
                       No link provided - you're already here!
                     </Card.Text>
-                    <Button className="mt-auto" href="https://github.com/jcruse123/portfolio" block size="sm" variant="primary">GitHub</Button>
+                    <Button className="mt-auto" href="https://github.com/jcruse123/portfolio-version-one" block size="sm" variant="primary">GitHub</Button>
                   </Card.Body>
                 </Card>
               </Col>

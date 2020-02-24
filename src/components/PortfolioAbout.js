@@ -23,6 +23,7 @@ const PortfolioAbout = () => {
           Take a look at my <a href="#project-section">projects</a> to learn more.
           Feel free to <a href="#contact-section">contact</a> me at any time.
         </p>
+        {/* Logos Section removed for now
         <Row className="about-logos-row pt-4">
           <Col sm={12} className="mt-3">
             <img className="about-logos" src={node} alt="mongo db" />
@@ -37,6 +38,7 @@ const PortfolioAbout = () => {
             <img className="about-logos" src={mongo} alt="mongo db" />
           </Col>
         </Row>
+        */}
       </Container>
     </div>
   )

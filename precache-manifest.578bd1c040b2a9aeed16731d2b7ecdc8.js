@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "553b4d71cc5b1918e2cabbf036173ab4",
+    "revision": "f8bce578460fadd9a974f641221cd3f1",
     "url": "/portfolio-version-one/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-version-one/static/css/2.cbf16948.chunk.css"
   },
   {
-    "revision": "e2ec0ae302df3c6bb051",
+    "revision": "aed5cb448d83b19369b6",
     "url": "/portfolio-version-one/static/css/main.aecb0583.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-version-one/static/js/2.39e0a3c7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e2ec0ae302df3c6bb051",
-    "url": "/portfolio-version-one/static/js/main.4b376075.chunk.js"
+    "revision": "aed5cb448d83b19369b6",
+    "url": "/portfolio-version-one/static/js/main.2b880f62.chunk.js"
   },
   {
     "revision": "63bcd2aabceff85898d6",
@@ -56,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-version-one/static/media/mongo-db.3d40302b.png"
   },
   {
-    "revision": "86706793a8ae4ca53de3466b8897ee45",
-    "url": "/portfolio-version-one/static/media/nasa-image.86706793.jpg"
+    "revision": "7155e9da3d2a8671d76c92c6438a8ca1",
+    "url": "/portfolio-version-one/static/media/nasa-image.7155e9da.jpg"
   },
   {
     "revision": "0d8ed365842d251cd2bfa6e98d461d62",

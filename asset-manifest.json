@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio-version-one/static/css/main.aecb0583.chunk.css",
-    "main.js": "/portfolio-version-one/static/js/main.4b376075.chunk.js",
-    "main.js.map": "/portfolio-version-one/static/js/main.4b376075.chunk.js.map",
+    "main.js": "/portfolio-version-one/static/js/main.2b880f62.chunk.js",
+    "main.js.map": "/portfolio-version-one/static/js/main.2b880f62.chunk.js.map",
     "runtime-main.js": "/portfolio-version-one/static/js/runtime-main.c65856e0.js",
     "runtime-main.js.map": "/portfolio-version-one/static/js/runtime-main.c65856e0.js.map",
     "static/css/2.cbf16948.chunk.css": "/portfolio-version-one/static/css/2.cbf16948.chunk.css",
     "static/js/2.39e0a3c7.chunk.js": "/portfolio-version-one/static/js/2.39e0a3c7.chunk.js",
     "static/js/2.39e0a3c7.chunk.js.map": "/portfolio-version-one/static/js/2.39e0a3c7.chunk.js.map",
     "index.html": "/portfolio-version-one/index.html",
-    "precache-manifest.fe040423af1d7bf6e839a35abaeb343c.js": "/portfolio-version-one/precache-manifest.fe040423af1d7bf6e839a35abaeb343c.js",
+    "precache-manifest.578bd1c040b2a9aeed16731d2b7ecdc8.js": "/portfolio-version-one/precache-manifest.578bd1c040b2a9aeed16731d2b7ecdc8.js",
     "service-worker.js": "/portfolio-version-one/service-worker.js",
     "static/css/2.cbf16948.chunk.css.map": "/portfolio-version-one/static/css/2.cbf16948.chunk.css.map",
     "static/css/main.aecb0583.chunk.css.map": "/portfolio-version-one/static/css/main.aecb0583.chunk.css.map",
@@ -21,7 +21,7 @@
     "static/media/home.svg": "/portfolio-version-one/static/media/home.b5d7892e.svg",
     "static/media/list.svg": "/portfolio-version-one/static/media/list.e8b695a1.svg",
     "static/media/mongo-db.png": "/portfolio-version-one/static/media/mongo-db.3d40302b.png",
-    "static/media/nasa-image.jpg": "/portfolio-version-one/static/media/nasa-image.86706793.jpg",
+    "static/media/nasa-image.jpg": "/portfolio-version-one/static/media/nasa-image.7155e9da.jpg",
     "static/media/node-js.png": "/portfolio-version-one/static/media/node-js.0d8ed365.png",
     "static/media/open-ticket.jpg": "/portfolio-version-one/static/media/open-ticket.70069583.jpg",
     "static/media/person.svg": "/portfolio-version-one/static/media/person.253b58a1.svg",
@@ -34,6 +34,6 @@
     "static/css/2.cbf16948.chunk.css",
     "static/js/2.39e0a3c7.chunk.js",
     "static/css/main.aecb0583.chunk.css",
-    "static/js/main.4b376075.chunk.js"
+    "static/js/main.2b880f62.chunk.js"
   ]
 }

@@ -33,10 +33,10 @@ const PortfolioProjects = () => {
                   <Card.Img variant="top" src={nasaImage} />
                   <hr className="mt-0 pt-0 mb-0 pb-0 card-hr" />
                   <Card.Body className="d-flex flex-column">
-                    <h3>NASA Image</h3>
+                    <h3>NASA Image Library</h3>
                     <hr className="project-title-hr mb-2 mt-1"/>
                     <Card.Text>
-                      NASA Image uses an API search the NASA image library.
+                      NASA Image Library uses an API to view images in a collection provided by NASA.
                       Click on an image to learn more about space exploration.
                     </Card.Text>
                     <Button className="mt-auto" href="https://jcruse123.github.io/nasa-image/" block size="sm" variant="success">Live Version</Button>

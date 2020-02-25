@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
+import nasaImage from '../img/nasa-image.jpg'
 import aperture from '../img/aperture.jpg'
 import openTicket from '../img/open-ticket.jpg'
 import portfolio from '../img/portfolio-bg.jpg'
@@ -28,17 +29,17 @@ const PortfolioProjects = () => {
             <Row>
 
               <Col xs={12} sm={6} lg={4} className="mb-4">
-                <Card className="h-100" data-aos="fade-in">
-                  <Card.Img variant="top" src={aperture} />
+                <Card className=" h-100" data-aos="fade-in">
+                  <Card.Img variant="top" src={nasaImage} />
                   <hr className="mt-0 pt-0 mb-0 pb-0 card-hr" />
                   <Card.Body className="d-flex flex-column">
-                    <h3>Aperture</h3>
+                    <h3>NASA Image</h3>
                     <Card.Text>
-                      Aperture is a place for photography enthusiasts to post their best photos.
-                      Sign up to post your own photo and leave a five star rating on your favorite picture.
+                      NASA Image uses an API search the NASA image library.
+                      Click on an image to learn more about space exploration.
                     </Card.Text>
-                    <Button className="mt-auto" href="https://aperture-photo.herokuapp.com/photos" block size="sm" variant="success">Live Version</Button>
-                    <Button href="https://github.com/jcruse123/aperture-photo" block size="sm" variant="primary">GitHub</Button>
+                    <Button className="mt-auto" href="https://jcruse123.github.io/nasa-image/" block size="sm" variant="success">Live Version</Button>
+                    <Button href="https://github.com/jcruse123/nasa-image" block size="sm" variant="primary">GitHub</Button>
                   </Card.Body>
                 </Card>
               </Col>
@@ -55,6 +56,22 @@ const PortfolioProjects = () => {
                     </Card.Text>
                     <Button className="mt-auto" href="https://open-ticket-complete.herokuapp.com/" block size="sm" variant="success">Live Version</Button>
                     <Button href="https://github.com/jcruse123/open-ticket-complete" block size="sm" variant="primary">GitHub</Button>
+                  </Card.Body>
+                </Card>
+              </Col>
+
+              <Col xs={12} sm={6} lg={4} className="mb-4">
+                <Card className="h-100" data-aos="fade-in">
+                  <Card.Img variant="top" src={aperture} />
+                  <hr className="mt-0 pt-0 mb-0 pb-0 card-hr" />
+                  <Card.Body className="d-flex flex-column">
+                    <h3>Aperture</h3>
+                    <Card.Text>
+                      Aperture is a place for photography enthusiasts to post their best photos.
+                      Sign up to post your own photo and leave a five star rating on your favorite picture.
+                    </Card.Text>
+                    <Button className="mt-auto" href="https://aperture-photo.herokuapp.com/photos" block size="sm" variant="success">Live Version</Button>
+                    <Button href="https://github.com/jcruse123/aperture-photo" block size="sm" variant="primary">GitHub</Button>
                   </Card.Body>
                 </Card>
               </Col>

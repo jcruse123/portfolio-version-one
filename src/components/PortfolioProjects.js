@@ -25,7 +25,7 @@ const PortfolioProjects = () => {
         <div id="project-section" data-aos="fade-in">
           <Container className="text-center" id="project-content">
             <h1 className="display-4" id="project-headline">Projects</h1>
-            <hr className="pb-3" id="project-hr" />
+            <hr className="pb-3" id="project-hr mb-2 mt-1" />
             <Row>
 
               <Col xs={12} sm={6} lg={4} className="mb-4">
@@ -34,6 +34,7 @@ const PortfolioProjects = () => {
                   <hr className="mt-0 pt-0 mb-0 pb-0 card-hr" />
                   <Card.Body className="d-flex flex-column">
                     <h3>NASA Image</h3>
+                    <hr className="project-title-hr mb-2 mt-1"/>
                     <Card.Text>
                       NASA Image uses an API search the NASA image library.
                       Click on an image to learn more about space exploration.
@@ -50,6 +51,7 @@ const PortfolioProjects = () => {
                   <hr className="mt-0 pt-0 mb-0 pb-0 card-hr" />
                   <Card.Body className="d-flex flex-column">
                     <h3>Open Ticket</h3>
+                    <hr className="project-title-hr mb-2 mt-1"/>
                     <Card.Text>
                       Open Ticket is an easy to use issue tracker powered by React.
                       Create a new ticket or track your progress on an existing ticket using journal entries.
@@ -66,6 +68,7 @@ const PortfolioProjects = () => {
                   <hr className="mt-0 pt-0 mb-0 pb-0 card-hr" />
                   <Card.Body className="d-flex flex-column">
                     <h3>Aperture</h3>
+                    <hr className="project-title-hr mb-2 mt-1"/>
                     <Card.Text>
                       Aperture is a place for photography enthusiasts to post their best photos.
                       Sign up to post your own photo and leave a five star rating on your favorite picture.
@@ -82,8 +85,9 @@ const PortfolioProjects = () => {
                   <hr className="mt-0 pt-0 mb-0 pb-0 card-hr" />
                   <Card.Body className="d-flex flex-column">
                     <h3>Developer Portfolio</h3>
+                    <hr className="project-title-hr mb-2 mt-1"/>
                     <Card.Text>
-                      Custom built website to display my projects and allow anyone to easily send me a message.
+                      Custom web page to display my projects and allow anyone to easily send me a message.
                       No link provided - you're already here!
                     </Card.Text>
                     <Button className="mt-auto" href="https://github.com/jcruse123/portfolio-version-one" block size="sm" variant="primary">GitHub</Button>

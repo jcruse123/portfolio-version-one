@@ -130,6 +130,12 @@ html {
   color: black;
 }
 
+.project-title-hr {
+  border-style: solid !important;
+  border-color: light-grey !important;
+  width: 100%;
+}
+
 .project-bg .react-parallax-bgimage {
   top: 20%;
 }

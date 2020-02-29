@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
+import randomWeather from '../img/random-weather.jpg'
 import nasaImage from '../img/nasa-image.jpg'
 import aperture from '../img/aperture.jpg'
 import openTicket from '../img/open-ticket.jpg'
@@ -27,6 +28,23 @@ const PortfolioProjects = () => {
             <h1 className="display-4" id="project-headline">Projects</h1>
             <hr className="pb-3" id="project-hr mb-2 mt-1" />
             <Row>
+
+              <Col xs={12} sm={6} lg={4} className="mb-4">
+                <Card className=" h-100" data-aos="fade-in">
+                  <Card.Img variant="top" src={randomWeather} />
+                  <hr className="mt-0 pt-0 mb-0 pb-0 card-hr" />
+                  <Card.Body className="d-flex flex-column">
+                    <h3>Random Weather</h3>
+                    <hr className="project-title-hr mb-2 mt-1"/>
+                    <Card.Text>
+                      This application displays a number of locations along with weather data from those locations.
+                      Click on a map marker to display detailed weather information.
+                    </Card.Text>
+                    <Button className="mt-auto" href="https://random-weather.herokuapp.com/" block size="sm" variant="success">Live Version</Button>
+                    <Button href="https://github.com/jcruse123/random-weather" block size="sm" variant="primary">GitHub</Button>
+                  </Card.Body>
+                </Card>
+              </Col>
 
               <Col xs={12} sm={6} lg={4} className="mb-4">
                 <Card className=" h-100" data-aos="fade-in">

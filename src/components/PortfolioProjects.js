@@ -26,7 +26,7 @@ const PortfolioProjects = () => {
         <div id="project-section" data-aos="fade-in">
           <Container className="text-center" id="project-content">
             <h1 className="display-4" id="project-headline">Projects</h1>
-            <hr className="pb-3" id="project-hr mb-2 mt-1" />
+            <hr className="pb-3" id="project-hr" />
             <Row>
 
               <Col xs={12} sm={6} lg={4} className="mb-4">

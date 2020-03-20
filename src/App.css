@@ -88,7 +88,7 @@ html {
 }
 
 .about-logos {
-  height: 50px;
+  height: 30px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -163,6 +163,25 @@ html {
 
 .card-img-top {
   border-radius: 0;
+}
+
+.modal-content {
+  border-radius: 0;
+}
+
+.project-modal-title {
+  font-size: 2rem;
+}
+
+.project-modal {
+  width: 90vw;
+  max-width: 900px !important;
+}
+
+.project-carousel {
+  /* border-style: solid;
+  border-color: lightgrey;
+  border-width: 1px; */
 }
 
 /* Contact section */

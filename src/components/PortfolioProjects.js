@@ -46,7 +46,7 @@ const PortfolioProjects = () => {
                 github = "https://github.com/jcruse123/random-weather/"
                 link = "https://random-weather.herokuapp.com/"
                 modal = "This application consists of two parts. It uses a back end server built using Node.js and Express that makes use of two external APIs to get weather data about a specific number of random locations in the world. This data is then used by the front end to display the data on an interactive map. The front end is built using React and Mapbox."
-                modalTwo= "The objective for this project is to gain experience integrating data from external APIs into an interactive front end."
+                modalTwo= "The objective for this project was to gain experience using data from external APIs with an interactive front end."
               />
 
               <Project
@@ -58,7 +58,7 @@ const PortfolioProjects = () => {
                 github = "https://github.com/jcruse123/nasa-image/"
                 link = "https://jcruse123.github.io/nasa-image/"
                 modal = "This is a front end application made using React and Node.js. On the first page, a list of the most popular images from NASA's image library is displayed using an API endpoint. The search function uses a different endpoint that returns search results when provided with search terms."
-                modalTwo = "The objective for this project is to gain experience integrating data from external APIs into an interactive front end."
+                modalTwo = "The objective for this project was to gain experience using data from an external API with an interactive front end."
               />
 
               <Project
@@ -69,8 +69,8 @@ const PortfolioProjects = () => {
                 description = "Open Ticket is an easy to use issue tracker powered by React. Create a new ticket or track your progress on an existing ticket using journal entries."
                 github = "https://github.com/jcruse123/open-ticket/"
                 link = "https://open-ticket-complete.herokuapp.com"
-                modal = "Open Ticket is an easy to use issue tracker powered by React. Create a new ticket or track your progress on an existing ticket using journal entries."
-                modalTwo = ""
+                modal = "Open Ticket is an easy to use issue tracker made with MongoDB, Express, React, and Node.js. Create a new ticket or track your progress on an existing ticket using journal entries."
+                modalTwo = "The idea for this application came from my experience using issue tracking appliations in the IT field. The goal of the project was to create an online version of the issue trackers that many IT specialists use every day."
               />
 
               <Project
@@ -81,8 +81,8 @@ const PortfolioProjects = () => {
                 description = "Aperture is a place for photography enthusiasts to post their best photos. Sign up to post your own photo and leave a five star rating on your favorite picture."
                 github = "https://github.com/jcruse123/aperture-photo"
                 link = "https://aperture-photo.herokuapp.com/photos/"
-                modal = "Aperture is a place for photography enthusiasts to post their best photos. Sign up to post your own photo and leave a five star rating on your favorite picture."
-                modalTwo = ""
+                modal = "Aperture was made using Javascript, Express, and Node.js. Users can post photos, leave comments, and rate their favorite photos."
+                modalTwo = "This application was originally the final project for an online web development course where users could leave reviews for various camp sites. I used the back end of the project I completed during a web development course and redesigned the front end to create this application."
               />
 
               <Project
@@ -90,10 +90,10 @@ const PortfolioProjects = () => {
                 imageDetail = {portfolioDetail}
                 imageCode = {portfolioCode}
                 title = "Developer Portfolio"
-                description = "Custom web page to display my projects and allow anyone to easily send me a message."
+                description = "This online portfolio is a place to display my projects and allow anyone to easily send me a message."
                 github = "https://github.com/jcruse123/portfolio-version-one/"
                 link = "https://www.joshuacruse.us/"
-                modal = "Custom web page to display my projects and allow anyone to easily send me a message."
+                modal = "This online portfolio is a place to display my projects and allow anyone to easily send me a message."
                 modalTwo = ""
               />
 

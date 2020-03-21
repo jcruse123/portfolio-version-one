@@ -92,7 +92,7 @@ const PortfolioProjects = () => {
                 title = "Developer Portfolio"
                 description = "Custom web page to display my projects and allow anyone to easily send me a message."
                 github = "https://github.com/jcruse123/portfolio-version-one/"
-                link = "https://jcruse123.github.io/portfolio-version-one/"
+                link = "https://www.joshuacruse.us/"
                 modal = "Custom web page to display my projects and allow anyone to easily send me a message."
                 modalTwo = ""
               />

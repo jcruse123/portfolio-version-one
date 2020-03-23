@@ -45,7 +45,7 @@ const PortfolioProjects = () => {
                 description = "This application displays a number of locations along with weather data from those locations. Click on a map marker to display detailed weather information."
                 github = "https://github.com/jcruse123/random-weather/"
                 link = "https://random-weather.herokuapp.com/"
-                modal = "This application consists of two parts. It uses a back end server built using Node.js and Express that makes use of two external APIs to get weather data about a specific number of random locations in the world. This data is then used by the front end to display the data on an interactive map. The front end is built using React and Mapbox."
+                modal = "This application consists of two parts. It uses a back end server built using Node.js and Express that makes use of two external APIs to get weather data about a specific number of random locations in the world. This data is then used by the front end to display the data on an interactive map. The front end is built using React."
                 modalTwo= "The objective for this project was to gain experience using data from external APIs with an interactive front end."
               />
 
@@ -82,7 +82,7 @@ const PortfolioProjects = () => {
                 github = "https://github.com/jcruse123/aperture-photo"
                 link = "https://aperture-photo.herokuapp.com/photos/"
                 modal = "Aperture was made using Javascript, Express, and Node.js. Users can post photos, leave comments, and rate their favorite photos."
-                modalTwo = "This application was originally the final project for an online web development course where users could leave reviews for various camp sites. I used the back end of the project I completed during a web development course and redesigned the front end to create this application."
+                modalTwo = "This application began as the final project for an online web development course where users could leave reviews for various camp sites. I used the existing back end of the project and redesigned the front end to create this application."
               />
 
               <Project

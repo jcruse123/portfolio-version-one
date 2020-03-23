@@ -94,7 +94,6 @@ class Project extends React.Component {
                   </Carousel.Item>
 
                 </Carousel>
-                <hr />
               </Col>
 
               <Col md={6} sm={12} className="d-flex flex-column">
@@ -106,7 +105,6 @@ class Project extends React.Component {
                 </p>
                 <Button className="mt-auto" href={this.state.projectLink} block size="sm" variant="success">Live Version</Button>
                 <Button href={this.state.projectGithub} block size="sm" variant="primary">GitHub</Button>
-                <hr className="w-100" />
               </Col>
 
             </Row>

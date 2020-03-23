@@ -93,7 +93,7 @@ const PortfolioProjects = () => {
                 description = "This online portfolio is a place to display my projects and allow anyone to easily send me a message."
                 github = "https://github.com/jcruse123/portfolio-version-one/"
                 link = "https://www.joshuacruse.us/"
-                modal = "This online portfolio is a place to display my projects and allow anyone to easily send me a message."
+                modal = "This online portfolio is a place to display my projects and allow anyone to easily send me a message. It is built using React and Node.js."
                 modalTwo = ""
               />
 

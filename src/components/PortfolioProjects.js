@@ -70,7 +70,7 @@ const PortfolioProjects = () => {
                 github = "https://github.com/jcruse123/open-ticket/"
                 link = "https://open-ticket-complete.herokuapp.com"
                 modal = "Open Ticket is an easy to use issue tracker made with MongoDB, Express, React, and Node.js. Create a new ticket or track your progress on an existing ticket using journal entries."
-                modalTwo = "The idea for this application came from my experience using issue tracking appliations in the IT field. The goal of the project was to create an online version of the issue trackers that many IT specialists use every day."
+                modalTwo = "The idea for this application came from my experience using issue tracking applications in the IT field. The goal of the project was to create an online version of the issue trackers that many IT specialists use every day."
               />
 
               <Project
